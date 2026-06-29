@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2fabe91-7f14-4793-a339-7117255e45ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/YR1_F1_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/getseason.py" afterDir="false" />
+    <list default="true" id="a2fabe91-7f14-4793-a339-7117255e45ac" name="Changes" comment="Now can fetch any session from 2018 onwards">
+      <change afterPath="$PROJECT_DIR$/getseasonschedule.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getsession.py" beforeDir="false" afterPath="$PROJECT_DIR$/getsessionresults.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +21,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6,
-  "fromUser": false
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;KeneChukwu0&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/KeneChukwu0/YR1_F1_Project&quot;,
+    &quot;accountId&quot;: &quot;366294a1-ea6e-477c-8090-86473c268c67&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3FfUeTiSf27i3lWKn96kGxocFeX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,6 +46,8 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.getseason.executor": "Run",
+    "Python.getseasonschedule.executor": "Run",
+    "Python.getsession.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -51,6 +62,19 @@
       <option name="presentableId" value="Default" />
       <updated>1782465713033</updated>
     </task>
+    <task id="LOCAL-00001" summary="Now can fetch any session from 2018 onwards">
+      <option name="closed" value="true" />
+      <created>1782468242187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782468242188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Now can fetch any session from 2018 onwards" />
+    <option name="LAST_COMMIT_MESSAGE" value="Now can fetch any session from 2018 onwards" />
   </component>
 </project>
