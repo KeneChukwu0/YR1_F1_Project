@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2fabe91-7f14-4793-a339-7117255e45ac" name="Changes" comment="Now can fetch any session from 2018 onwards">
-      <change afterPath="$PROJECT_DIR$/getseasonschedule.py" afterDir="false" />
+    <list default="true" id="a2fabe91-7f14-4793-a339-7117255e45ac" name="Changes" comment="Get season schedule implemented + change to get session results">
+      <change afterPath="$PROJECT_DIR$/getsessionfastestlap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getsession.py" beforeDir="false" afterPath="$PROJECT_DIR$/getsessionresults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getsessionresults.py" beforeDir="false" afterPath="$PROJECT_DIR$/getsessionresults.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,8 @@
     "Python.getseason.executor": "Run",
     "Python.getseasonschedule.executor": "Run",
     "Python.getsession.executor": "Run",
+    "Python.getsessionfastestlap.executor": "Run",
+    "Python.getsessionresults.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -70,11 +72,20 @@
       <option name="project" value="LOCAL" />
       <updated>1782468242188</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Get season schedule implemented + change to get session results">
+      <option name="closed" value="true" />
+      <created>1782736032016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782736032016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Now can fetch any session from 2018 onwards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now can fetch any session from 2018 onwards" />
+    <MESSAGE value="Get season schedule implemented + change to get session results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get season schedule implemented + change to get session results" />
   </component>
 </project>
