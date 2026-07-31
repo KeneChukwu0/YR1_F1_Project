@@ -8,6 +8,7 @@ def sessionfastestlap():
     # session.load(telemetry=False)
     # lap = session.laps.pick_fastest()
     # print(lap)
+
     session = fastf1.get_session(2025, 'Monza', 'R')
     session.load(telemetry=True, laps=True, weather=False)
 

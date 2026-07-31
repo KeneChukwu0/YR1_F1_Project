@@ -2,6 +2,7 @@ import getseasonschedule
 import getsessionfastestlap
 import getsessionresults
 
+gui = False
 
 print("--------------------------------------------------------------------------------")
 
@@ -12,7 +13,7 @@ while True:
     print("4. Exit\n")
     num = input("Please enter a number\n")
     if num == "1":
-        getseasonschedule.seasonschedule()
+        getseasonschedule.seasonschedule(gui)
         print("-------------------")
         print("\n")
     elif num == "2":
