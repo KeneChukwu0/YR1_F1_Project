@@ -6,6 +6,7 @@ import getsessionresultsadvanced
 gui = False
 
 print("--------------------------------------------------------------------------------")
+print("Welcome to F1 Results Lite\n")
 
 while True:
     print("1. Season Schedule")
@@ -31,6 +32,7 @@ while True:
         print("-------------------")
         print("\n")
     elif num == "5":
+        print("Exiting...")
         break
     else:
         print("Not an option, please reenter\n")

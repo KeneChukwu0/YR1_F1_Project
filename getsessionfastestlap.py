@@ -1,13 +1,9 @@
 import fastf1
 
 def sessionfastestlap():
-    # year = int(input("Select Year \n"))
-    # race = input("Select race \n")
-    # weekendsession = input("Select session \n")
-    # session = fastf1.get_session(year, race, weekendsession)
-    # session.load(telemetry=False)
-    # lap = session.laps.pick_fastest()
-    # print(lap)
+    year = int(input("Select Year \n"))
+    race = input("Select race \n")
+    weekendsession = input("Select session \n")
 
     session = fastf1.get_session(2025, 'Monza', 'R')
     session.load(telemetry=True, laps=True, weather=False)
