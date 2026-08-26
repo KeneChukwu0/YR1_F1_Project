@@ -4,7 +4,7 @@ import getsessionresults
 import getsessionresultsadvanced
 
 gui = False
-
+#print statements for CLI, depending on option leads to different functions to be called to then output data
 print("--------------------------------------------------------------------------------")
 print("Welcome to F1 Results Lite\n")
 

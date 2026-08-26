@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2fabe91-7f14-4793-a339-7117255e45ac" name="Changes" comment="Adding new feature: Advanced session results. Works in GUI and CLI. CLI version only works properly outside of IDE though due to table being compressed down in IDE terminal. &#10;&#10;For clarity with the new feature, the old session results function is now labelled Simple Session Results">
+    <list default="true" id="a2fabe91-7f14-4793-a339-7117255e45ac" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getseasonschedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/getseasonschedule.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getsessionfastestlap.py" beforeDir="false" afterPath="$PROJECT_DIR$/getsessionfastestlap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getsessionresults.py" beforeDir="false" afterPath="$PROJECT_DIR$/getsessionresults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getsessionresultsadvanced.py" beforeDir="false" afterPath="$PROJECT_DIR$/getsessionresultsadvanced.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guimain.py" beforeDir="false" afterPath="$PROJECT_DIR$/guimain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -124,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785842460486</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="GUI improved with better presentation - need to decide on whether to include further instructions or not">
+      <option name="closed" value="true" />
+      <created>1785941575704</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1785941575704</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,6 +149,7 @@
     <MESSAGE value="Labelled fastest lap as WIP, seems to be a problem with the API" />
     <MESSAGE value="GUI v1.0 completed. Needs some further work for clarity when used + nicer formatting possibly" />
     <MESSAGE value="Adding new feature: Advanced session results. Works in GUI and CLI. CLI version only works properly outside of IDE though due to table being compressed down in IDE terminal. &#10;&#10;For clarity with the new feature, the old session results function is now labelled Simple Session Results" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new feature: Advanced session results. Works in GUI and CLI. CLI version only works properly outside of IDE though due to table being compressed down in IDE terminal. &#10;&#10;For clarity with the new feature, the old session results function is now labelled Simple Session Results" />
+    <MESSAGE value="GUI improved with better presentation - need to decide on whether to include further instructions or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI improved with better presentation - need to decide on whether to include further instructions or not" />
   </component>
 </project>
